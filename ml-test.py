@@ -19,3 +19,5 @@ prediction = model.predict(rooms_sc)
 
 prediction_sc = sc_y.inverse_transform(prediction)
 print(f' El precio del seguro para {rooms} años es de: $ {prediction_sc[0][0]:.2f}')
+
+set1
